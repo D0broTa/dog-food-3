@@ -1,0 +1,24 @@
+.search {
+    position: relative;
+}
+
+.search__input {
+    min-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(101, 105, 105);
+    font-size: 16px;
+}
+
+.search__icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.search__input:hover {
+    background-color: antiquewhite;
+    
+    border: 5px solid white;
+}
